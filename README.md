@@ -9,6 +9,6 @@ docker build -t bonnefete .
 docker run --name keven -p 8080:4000 bonnefete
 ```
 
-Allez sur ton localhost:8080.
+Allez sur ton `localhost:8080`.
 
 Allez, bye.
