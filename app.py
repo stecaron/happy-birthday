@@ -29,8 +29,10 @@ def hello():
 
     message_jee = "<b>Jee</b> <br> Joyeux anniversaire mon cher Jean-Thomas. Profite de cette journée et fais" \
                   " un René Fournaise de toi. <a href='https://youtu.be/IFzPDeRpQ2g'> xoxo </a> <br/> <br/>"
+                  
+    message_buten ="<b> Antoine Buten </b> <br> Joyeux 35e JT! Au plaisir de refaire des chalets et de boire de la bière avec toi!." 
 
-    html = message_generale + message_ste + message_peroch + message_phil + message_jee
+    html = message_generale + message_ste + message_peroch + message_phil + message_jee + message_buten
     return html
 
 
