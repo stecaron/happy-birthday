@@ -39,7 +39,11 @@ def hello():
                   "exactement ça : Je t'apprécie vraiment. T'es sharp dans tout ce que tu fais et c'est vraiment inspirant" \
                   "d'échanger avec un passionné comme toi. À bientôt!"
 
-    html = message_generale + message_ste + message_peroch + message_phil + message_jee + message_buten + message_jpl
+    message_jdb = "<b> JeremieDB </b> <br> Bonne fête Jean-Thomas! J'espère que ce 13 mars sera pour toi une source " \
+                    "intarissable de bons temps, bonnes mousses et de code sans bugs. Au plaisir! <br/> <br/>" 
+
+    html = message_generale + message_ste + message_peroch + message_phil + message_jee + message_buten + message_jpl + message_jdb
+    
     return html
 
 
